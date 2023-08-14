@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_feature_courses",
+  "info": {
+    "displayName": "featureCourse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "featuredCourse": {
+      "displayName": "featuredCourse",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.featured-course"
+    },
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "announcement": {
+      "type": "text"
+    }
+  }
+}
